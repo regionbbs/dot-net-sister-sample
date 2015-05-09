@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace BMIService
 {
-    public class Class1
+    public interface IBodyMeasureIndex
     {
+        MeasureResult Calculate(double Height, double Weight, out double BMI);
     }
 }
