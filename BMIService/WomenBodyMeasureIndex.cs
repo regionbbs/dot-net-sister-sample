@@ -11,7 +11,7 @@ namespace BMIService
         public MeasureResult Calculate(double Height, double Weight, out double BMI)
         {
             BMI = Weight / Math.Pow(Height, 2);
-
+            
             if (BMI < 18)
                 return MeasureResult.Less;
             else if (BMI > 22)

@@ -41,12 +41,13 @@ namespace BMIConsole
             isMale = (genderIdent == "y");
 
             IBodyMeasureIndex bmiService = null;
+            bmiService = new WomenBodyMeasureIndex();
 
             if (isMale)
                 bmiService = new MenBodyMeasureIndex();
             else
                 bmiService = new WomenBodyMeasureIndex();
-                
+
             MeasureResult result = bmiService.Calculate(height, weight, out bmi);
 
             Console.WriteLine("BMI: {0}", bmi);

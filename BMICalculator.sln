@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMIConsole", "BMIConsole\BM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMIService", "BMIService\BMIService.csproj", "{68BE53C8-FCA9-4C71-9E23-288DA37427E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMIAPI", "BMIAPI\BMIAPI.csproj", "{38DE18C1-61AF-4224-B1F1-686B321906E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{68BE53C8-FCA9-4C71-9E23-288DA37427E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68BE53C8-FCA9-4C71-9E23-288DA37427E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68BE53C8-FCA9-4C71-9E23-288DA37427E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38DE18C1-61AF-4224-B1F1-686B321906E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38DE18C1-61AF-4224-B1F1-686B321906E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38DE18C1-61AF-4224-B1F1-686B321906E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38DE18C1-61AF-4224-B1F1-686B321906E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
