@@ -36,12 +36,11 @@ namespace BMIConsole
                 return;
             }
 
-            bool isMale = true;
             double bmi = 0.0d;
+            bool isMale = true;
             isMale = (genderIdent == "y");
 
             IBodyMeasureIndex bmiService = null;
-            bmiService = new WomenBodyMeasureIndex();
 
             if (isMale)
                 bmiService = new MenBodyMeasureIndex();
